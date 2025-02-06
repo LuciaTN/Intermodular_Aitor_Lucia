@@ -1,7 +1,80 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small; 
     background-color: #DBE4F6;
+    height: 100vh;
+    margin:0px;
 }
 
-.flex-container{
-    justify-content: space-evenly;
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+h3{
+    text-align: left;
+    color: rgb(63,63,166);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column; 
+    form{
+        background-color: rgb(255, 255, 255);
+        padding:20px;
+        width: 225px;
+        
+        text-align: left;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 10px;       
+        ul {
+            list-style-type: none;
+            padding: 5px;
+            margin: 5px;
+        
+            li input{
+                border-radius: 5px;
+                height: 25px;
+                margin-top: 10px;
+                width: 190px;
+                border:1px  solid#ccc;
+            }
+            
+        } 
+        .boton{
+            background-color: rgb(63, 63, 166);
+            color:white;
+            margin-top: 10px;
+            width: 200px;
+            height: 30px;
+            border: 0px;
+            border-radius: 10px;
+            align-items: center;
+            margin-left: 10px;
+           
+        }  
+           
+    }       
+   
+}
+
+.inicioSesion{
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.Linkcontrasenya{
+    margin-top: 20px;
+    text-align: center;
+}
+
