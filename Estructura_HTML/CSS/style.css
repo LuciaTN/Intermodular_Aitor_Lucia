@@ -242,7 +242,7 @@ footer{
     display: flex;
     background-color:#1d2935;
     width: 100%;
-    height: 70px;
+    height: 170px;
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 20px;
@@ -262,9 +262,9 @@ footer{
 
 #logofooter{
     display: flex;
-    width: 150px;
-    height: 60;
-    background-color: #8ea1c0;
+    height: 70%;
+    width: 300px;
+    background-color: #DBE4F6;
     }
 
 .redessociales{
