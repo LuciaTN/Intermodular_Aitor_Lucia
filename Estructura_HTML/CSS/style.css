@@ -1,4 +1,4 @@
-body{
+.fondoAzul{
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -21,6 +21,11 @@ body{
 }
 
 h3{
+    text-align: left;
+    color: rgb(63,63,166);
+}
+
+h1{
     text-align: left;
     color: rgb(63,63,166);
 }
@@ -51,21 +56,20 @@ h3{
             }
             
         } 
-        .boton{
-            background-color: rgb(63, 63, 166);
-            color:white;
-            margin-top: 10px;
-            width: 200px;
-            height: 30px;
-            border: 0px;
-            border-radius: 10px;
-            align-items: center;
-            margin-left: 10px;
-           
-        }  
-           
+            
     }       
    
+}
+
+.boton{
+    background-color: rgb(63, 63, 166);
+    color:white;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .inicioSesion{
