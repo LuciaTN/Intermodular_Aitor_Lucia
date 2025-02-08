@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
 
@@ -56,22 +56,24 @@ body{
             }
             
         } 
-        .boton{
-            background-color: rgb(63, 63, 166);
-            color:white;
-            margin-top: 10px;
-            width: 200px;
-            height: 30px;
-            border: 0px;
-            border-radius: 10px;
-            align-items: center;
-            margin-left: 10px;
-           
-        }  
+        
            
     }       
    
 }
+
+.boton{
+    background-color: rgb(63, 63, 166);
+    color:white;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 10px;
+   
+}  
 
 .inicioSesion{
     margin-top: 20px;
@@ -196,7 +198,23 @@ body{
    justify-content: space-between;    
 }
 
-
+/*Estilo página legal*/
+.normativa{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 55px;
+    margin-left: 55px;
+    h3{
+        color: #2c3e50;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #8ea1c0;
+    }
+    h5{
+        color:#4d648d;
+        margin:0px;
+    }
+}
 
 
 /*Header páginas internas web*/
@@ -206,7 +224,6 @@ body{
     background-color:#DBE4F6;
     width: 100%;
     height: 40px;
-    padding-left: 55px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -216,6 +233,7 @@ body{
     width: 150px;
     height: 20;
     background-color:#2c3e50;
+    margin-left: 55px;
     }
 
 
@@ -243,8 +261,6 @@ footer{
     background-color:#1d2935;
     width: 100%;
     height: 170px;
-    padding-left: 55px;
-    padding-right: 55px;
     padding-top: 20px;
     justify-content:space-between;
     color:white;
@@ -265,6 +281,7 @@ footer{
     height: 70%;
     width: 300px;
     background-color: #DBE4F6;
+    margin-left: 55px;
     }
 
 .redessociales{
